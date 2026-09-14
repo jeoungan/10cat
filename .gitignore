@@ -1,0 +1,26 @@
+# Local runtime logs, browser captures, and generated review output
+/output/
+
+# Dependencies and local tooling state
+node_modules/
+.codex/
+.agents/
+.vscode/
+.idea/
+
+# Local environment and credentials
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.pem
+*.key
+
+# OS and editor temporary files
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.log
+*.tmp
+*.swp
+*~

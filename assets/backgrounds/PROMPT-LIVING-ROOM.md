@@ -1,0 +1,7 @@
+# Original living room illustration
+
+Generated with the built-in `image_gen` tool. Final file: `assets/backgrounds/living-room.png`. Original preserved at the tool output path. This is original generated game environment art; no image-editing scripts were used.
+
+## Exact prompt
+
+Use case: illustration-story. Asset type: widescreen background illustration for premium cozy 2D cat-raising visual novel game, title Nareunhan Ohu. Primary request: exquisitely detailed hand-painted anime storybook illustration of an inviting sunlit cat-friendly apartment living room with nobody in it, NO cats or people. Composition: landscape wide 16:9, eye-level slightly raised view, ample visible oak wooden floor and a large pale cream round woven rug covering bottom half, a low soft ivory sofa across the middle with dusty sage and apricot cushions, sunny tall window on the left with sheer linen curtains and leaves outside, a rattan cat tree on right, little books, a ceramic water bowl and food bowl, cat bed, a plant kept high out of reach. The rug and bottom floor must be spacious and empty to composite interactive cat characters later. Calm early afternoon golden sunlight beams with subtle suspended motes, soft lavender shadows, creamy warm whites, sage green and honey wood. Beautiful painterly environment art with delicate clean linework, subtle watercolor texture, sophisticated soft lighting, intricate architectural details, no 3D render, no photorealism, no lettering, no logo, no UI, no border. Whole image is the art.

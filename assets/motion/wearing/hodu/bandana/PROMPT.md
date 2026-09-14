@@ -1,0 +1,14 @@
+# hodu / bandana · wearing pet
+
+Built-in image_gen only. Four real poses; independent visual review pending. Original copied unchanged.
+
+Source: C:\Users\jeoun\.codex\generated_images\01a07e26-4ff3-7ad3-8821-d7f963dcc351\exec-f9b1da63-f78f-4784-b91a-7bb193f96707.png
+
+References:
+- C:/Users/jeoun/OneDrive/바탕 화면/고양이양이/assets/wardrobe-v2/hodu.png
+- C:/Users/jeoun/OneDrive/바탕 화면/고양이양이/assets/motion/pet/hodu.png
+
+Exact prompt:
+
+Use case: illustration-story. Production high-quality 2D illustrated cat care animation atlas, ONE square image exactly four equal square panels in a strict 2x2 grid. Reference 1 is hodu's approved wardrobe design and cat identity: use ONLY the upper-right outfit, a small thin sage cotton kerchief, softly draped shallow triangle on upper chest and tiny side knot, natural irregular folds. Ignore its other three outfits. Reference 2 is hodu's original petting poses, hand, fixed camera and warm living room. Redraw the entire scene beautifully as one cohesive painting of this exact cat wearing the requested garment in EVERY frame while being petted. Cat identity: large brown tabby Maine Coon with tufted ears, amber eyes, a broad gentle muzzle and long brown cream chest ruff, very fluffy tail curled beside its front paws. Never substitute an orange cat or change breed. Four sequential actual poses in reading order: top-left hand approaches above alert relaxed cat; top-right fingers gently stroke forehead and eyes soften; bottom-left eyes close in pleasure as hand rubs behind ear; bottom-right cat leans its head into the fingers with content closed eyes. Human hand enters from upper right; correct natural fingers, no extra limbs. Neck angle, eyelids, ear angle and hand position REALLY change, body and feet stay anchored in same spot. Garment curves, folds and contact shadows respond to neck/shoulder motion, neck fur softly overlaps garment edges. Same exact style/design/material/color throughout, no extra clothing and no swapping outfit across frames. Same warm sunlit cream sofa, sage cushions, woven rug and delicate leaf light in all frames; fixed eye-level camera, stable subject scale and background. Detailed silky fur, delicate painterly textiles and hand, warm natural soft contact shadows; premium storybook illustration, no pasted-on costume, no plastic 3D. Full cat including ear tufts, paws and entire tail safely inside each cell with at least 7% breathing room; never crop paws or ear at panel edge. Frame 4 is as large as other frames. Exact central boundaries at 50% width/height, no borders wider than 2 pixels, no text, numbers, watermarks or rounded corners. Square 1536x1536 or larger requested. Each panel is a high-detail complete illustration. This is ONE four-pose petting sequence of the SAME cat wearing the SAME bandana in every frame.
+

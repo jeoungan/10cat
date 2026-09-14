@@ -1,0 +1,207 @@
+/* Comfortable reading and touch targets, while retaining the soft paper palette. */
+.nav-item { color:#737d6c; }
+.nav-item.active { color:#586b49; }
+.page-heading p { color:#848b77; font-size:12px; }
+.breadcrumb { color:#858c7b; }
+.eyebrow { color:#858f73; }
+.weather b { color:#7a826b; }
+.weather small { color:#93997f; }
+.room-tabs button { color:#808971; font-size:11px; min-height:40px; }
+.room-tabs button.active { color:#62754e; }
+.room-heading { height:42px; }
+.subtle-button { color:#7f896f; font-size:11px; min-height:36px; }
+.care-tray-title>span { color:#778066; font-size:12px; }
+.care-tray-title>small { color:#929980; font-size:10px; }
+.care-button b { color:#616e54; font-size:12px; }
+.care-button small { color:#89917b; font-size:9px; }
+.care-button { min-height:60px; }
+.care-secondary { gap:14px; padding-top:4px; margin-top:10px; }
+.care-secondary button { font-size:11px; color:#7b8569; min-height:38px; padding:7px 5px; }
+.care-secondary .icon { width:14px; height:14px; }
+.card-overline { font-size:11px; color:#828c73; }
+.profile-name>span { color:#8b825f; font-size:9px; }
+.breed { color:#868e77; font-size:10px; }
+.mood-pill { color:#708660; font-size:11px; }
+.affection-row { color:#8c789c; font-size:10px; }
+.affection-row>b { color:#927ca3; font-size:12px; }
+.need>div:first-child { font-size:11px; color:#7e886d; }
+.need b { font-size:11px; color:#7a895f; }
+.story-button { font-size:11px; color:#8a749c; min-height:44px; }
+.quest-card h3 { font-size:11px; color:#778662; }
+.quest-row { font-size:11px; color:#778662; align-items:flex-start; }
+.quest-row small { font-size:10px; color:#8b9977; padding-top:2px; }
+.quest-row em { font-size:9px; color:#879572; line-height:1.8; }
+.quest-check { margin-top:2px; }
+.daily-reward { font-size:10px; color:#7b8862; min-height:43px; }
+.section-title h2 { color:#647552; font-size:14px; }
+.section-title p { color:#8b967b; font-size:11px; }
+.cat-card-name { font-size:12px; color:#6c7d59; }
+.cat-card>small { font-size:9px; color:#8a947b; }
+.cat-card-image { margin-bottom:9px; }
+.filter-chip { min-height:40px; }
+.memory-copy>span { color:#9682a1; font-size:10px; }
+.memory-copy p { color:#849173; font-size:10px; padding-right:12px; }
+.memory-art { background:linear-gradient(135deg,#f2eddf,color-mix(in srgb,var(--cat-color) 30%,#f9f5e9)); }
+.memory-cg { position:absolute; inset:0; width:100%; height:100%; object-fit:cover; }
+.memory-cg~.memory-number { color:#fff8e2; text-shadow:0 1px 4px #574d37; }
+.shop-card p,.help-steps p,.journal-entry p { color:#7f8c70; }
+.portrait-details>p { color:#7d886f; }
+.portrait-mood { color:#927ca3; }
+.personality-tags>span { color:#7a8b63; }
+.portrait-details h2>span { color:#818d72; }
+.portrait-tip { color:#84704c; }
+.settings-save { color:#788b62; }
+.setting-row { color:#758565; }
+.setting-row small { color:#8b9878; }
+.save-status { color:#8b947c; }
+.play-heading p { color:#788565; }
+.scene-label { background:#5e643447; border:1px solid #fffae735; padding:6px 9px; border-radius:7px; backdrop-filter:blur(5px); }
+.scene-cat.selected .cat-name-bubble { font-size:11px; }
+.scene-caption { background:#76663d40; padding:5px 10px; border-radius:20px; backdrop-filter:blur(3px); }
+.modal>.toast { position:absolute; bottom:14px; left:5%; right:5%; margin:0 auto; transform:none; font-size:12px; max-width:90%; }
+.portrait-modal>.toast { position:fixed; bottom:18px; }
+.modal>.toast:not(.visible) { display:none; }
+.toast { transition:opacity .2s,transform .3s; }
+
+/* Luna's folded paws belong above the dialogue, with the moon still in frame. */
+.dialogue-modal:has(.cutscene-background[src$="/luna-memory.png"]) .cutscene-title { text-shadow:0 1px 3px #142132,0 0 8px #142132,0 0 16px #142132; }
+@media (min-width:801px) {
+  .dialogue-modal:has(.cutscene-background[src$="/luna-memory.png"]) { aspect-ratio:1.4; }
+}
+@media (min-width:801px) and (max-height:800px) {
+  .dialogue-modal:has(.cutscene-background[src$="/luna-memory.png"]) .cutscene-background { height:75%; }
+}
+@media (max-width:800px) {
+  .dialogue-modal:has(.cutscene-background[src$="/luna-memory.png"]) .cutscene-background { height:75%; }
+}
+
+@media (max-width:1270px) and (min-width:801px) {
+  .care-button b { font-size:11px; }
+  .care-secondary { gap:7px; }
+  .care-secondary button { font-size:9px; }
+  .room-tabs button { font-size:10px; }
+  .profile-name { flex-wrap:wrap; }
+  .affection-row { font-size:9px; }
+  .quest-row { font-size:10px; }
+  .quest-row em { font-size:8px; }
+  .cat-card-name { font-size:10px; }
+  .cat-card>small { font-size:8px; }
+}
+
+@media (max-width:800px) {
+  .home-right { align-items:start; }
+  .affection-row { font-size:9px; }
+  .need>div:first-child { font-size:10px; }
+  .story-button { font-size:10px; }
+  .care-secondary button { font-size:10px; }
+  .profile-name { flex-wrap:wrap; }
+  .profile-name>span { font-size:8px; }
+  .breed { font-size:9px; }
+  .mood-pill { font-size:9px; }
+  .quest-row { font-size:10px; }
+  .quest-row em { font-size:9px; }
+  .care-button b { font-size:11px; }
+}
+
+@media (max-width:560px) {
+  .page-heading p { font-size:11px; }
+  .eyebrow { font-size:8px; }
+  .room-tabs button { font-size:10px; padding:8px; min-height:40px; }
+  .room-heading { height:40px; }
+  .room-heading>.subtle-button { font-size:0; }
+  .scene-label { font-size:10px; padding:5px 7px; top:11px; }
+  .scene-caption { font-size:9px; padding:4px 7px; bottom:11px; }
+  .scene-clock { font-size:10px; min-height:28px; }
+  .scene-sound { width:33px; height:33px; right:8px; bottom:8px; }
+  .cat-name-bubble,.scene-cat.selected .cat-name-bubble { font-size:10px; }
+  .care-tray-title>span { font-size:12px; }
+  .care-tray-title>small { font-size:9px; }
+  .care-button b { font-size:11px; }
+  .care-button { min-height:78px; }
+  .care-secondary { display:grid; grid-template-columns:1fr 1fr; gap:0 7px; }
+  .care-secondary button { min-height:44px; font-size:11px; text-align:center; }
+  .care-secondary .icon { width:14px; height:14px; }
+  .home-right { grid-template-columns:1fr; gap:14px; }
+  .profile-card { padding:20px; grid-template-columns:80px 1fr; gap:0 18px; }
+  .card-overline { font-size:11px; margin-bottom:17px; }
+  .profile-portrait { width:80px; height:80px; }
+  .profile-portrait>span { width:23px; height:23px; }
+  .profile-portrait>span>.icon { width:12px; height:12px; }
+  .profile-name { flex-wrap:nowrap; gap:7px; }
+  .profile-name h2 { font-size:24px; }
+  .profile-name>span { display:block; font-size:9px; }
+  .breed { font-size:10px; }
+  .mood-pill { font-size:11px; gap:5px; margin:7px 0 0; }
+  .mood-pill>.icon { width:13px; height:13px; }
+  .affection-row { font-size:11px; margin-top:20px; }
+  .affection-row .icon { width:13px; height:13px; }
+  .affection-row>b { font-size:13px; }
+  .affection-row small { font-size:10px; }
+  .affection { height:6px; margin-top:10px; }
+  .needs-grid { gap:22px 22px; margin:25px 0 22px; }
+  .need>div:first-child { font-size:12px; gap:7px; }
+  .need .icon { width:14px; height:14px; }
+  .need b { font-size:12px; }
+  .need .meter { height:5px; margin-top:9px; }
+  .story-button { width:calc(100% + 40px); margin:2px 0 -20px -20px; padding:14px; font-size:12px; min-height:48px; gap:9px; }
+  .story-button .icon { width:15px; height:15px; }
+  .story-button .icon:last-child { margin-left:7px; }
+  .quest-card { padding:19px 20px 0; }
+  .quest-card .section-title { margin-bottom:20px; }
+  .quest-card h3 { font-size:12px; gap:8px; }
+  .quest-card h3>.icon { width:16px; height:16px; }
+  .quest-card .section-title>span { font-size:11px; }
+  .quest-row { font-size:12px; gap:9px; margin-bottom:18px; }
+  .quest-row em { font-size:10px; margin-top:2px; }
+  .quest-row small { font-size:11px; }
+  .quest-check { width:16px; height:16px; margin-top:3px; }
+  .quest-check .icon { width:11px; height:11px; }
+  .daily-reward { width:calc(100% + 40px); margin-left:-20px; padding:14px 20px; font-size:11px; min-height:48px; gap:8px; }
+  .daily-reward>.icon { width:14px; height:14px; }
+  .cat-strip { grid-template-columns:repeat(5,minmax(0,1fr)); gap:6px; }
+  .cat-card-name { font-size:10px; padding:0 2px; }
+  .cat-card-name>.icon { width:9px; height:9px; }
+  .cat-card>small { font-size:8px; color:#77856b; }
+  .cat-card-image { margin-bottom:6px; }
+  .section-title h2 { font-size:13px; }
+  .section-title p { font-size:10px; }
+  .section-title .subtle-button { font-size:10px; }
+  .filter-chip { font-size:11px; }
+  .cat-card.large>small { font-size:10px; }
+  .cat-card-status { font-size:10px; }
+  .info-note { font-size:11px; }
+  .memory-copy>span { font-size:9px; }
+  .memory-copy p { font-size:10px; padding-right:0; }
+  .memory-copy h3 { font-size:14px; }
+  .memory-tag { font-size:8px; }
+  .shop-banner small { font-size:10px; }
+  .shop-card p { font-size:11px; }
+  .shop-card .primary-button { min-height:44px; font-size:11px; }
+  .inventory-box>span { font-size:11px; }
+  .journal-entry p { font-size:12px; }
+  .journal-entry small { font-size:10px; }
+  .portrait-details>p { font-size:12px; }
+  .portrait-details h2>span { font-size:10px; }
+  .personality-tags>span { font-size:10px; }
+  .portrait-mood { font-size:11px; }
+  .portrait-mood>b { font-size:10px; }
+  .modal-actions .care-button { min-height:74px; }
+  .portrait-details>.primary-button { min-height:45px; font-size:12px; }
+  .dialogue-text { font-size:14px; }
+  .dialogue-next { font-size:11px; min-height:32px; bottom:10px; }
+  .dialogue-choices>button { font-size:11px; min-height:44px; }
+  .dialogue-box { padding-bottom:48px; }
+  .settings-save { font-size:11px; }
+  .setting-row { font-size:13px; }
+  .setting-row small { font-size:10px; }
+  .help-steps p { font-size:12px; }
+  .help-steps b { font-size:13px; }
+  .play-modal { width:420px; height:560px; aspect-ratio:auto; }
+  .play-heading { left:13px; right:13px; top:50px; padding:22px 15px; }
+  .play-heading h2 { font-size:22px; }
+  .play-heading p { font-size:11px; line-height:1.9; }
+  .play-cat { width:55%; height:35%; bottom:15%; }
+  .feather-target { width:63px; height:63px; }
+  .play-hint { font-size:10px; bottom:28px; }
+  .footer { font-size:9px; }
+}

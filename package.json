@@ -1,0 +1,8 @@
+{
+  "name": "nareunhan-ohu",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "나른한 오후 — 열 마리의 고양이와 함께하는 일러스트 돌봄 게임",
+  "scripts": { "start": "node server.mjs", "dev": "node server.mjs", "test": "node --test tests/*.test.mjs" }
+}

@@ -1,0 +1,98 @@
+[
+  {
+    "cat": "mochi",
+    "outfit": "ribbon",
+    "width": 1254,
+    "height": 1254,
+    "length": 2212726,
+    "sha256": "0EADE470BA7AD3DCA255FCE8E48F5373CAA939608DB3AB746F8B95E90932F27E"
+  },
+  {
+    "cat": "mochi",
+    "outfit": "bandana",
+    "width": 1254,
+    "height": 1254,
+    "length": 2274857,
+    "sha256": "8303CA868AC039F98C02D4161BEE5CDB7A148991EB64783E9DDA52509D817FDF"
+  },
+  {
+    "cat": "mochi",
+    "outfit": "vest",
+    "width": 1254,
+    "height": 1254,
+    "length": 2265894,
+    "sha256": "7B057EEF3366275D2F526DE7904D2C8D4B7D1920752E2230B483DE12CAABD697"
+  },
+  {
+    "cat": "mochi",
+    "outfit": "sailor",
+    "width": 1254,
+    "height": 1254,
+    "length": 2289978,
+    "sha256": "FCE16CC5E3AAF7C4EDFB8396C9A7289887674A8CF7B190F705C43A6096FC3420"
+  },
+  {
+    "cat": "luna",
+    "outfit": "ribbon",
+    "width": 1254,
+    "height": 1254,
+    "length": 2463445,
+    "sha256": "6BF4911A6C98072EE79F349403FA9F288F65AEB8312D21C4A18095C4AFA50B93"
+  },
+  {
+    "cat": "luna",
+    "outfit": "bandana",
+    "width": 1254,
+    "height": 1254,
+    "length": 2453418,
+    "sha256": "38C2FCAB2A454E25CCB96D6FE6B1CCD78DC04FD18BB2BBC9B203668DAAEF2210"
+  },
+  {
+    "cat": "luna",
+    "outfit": "vest",
+    "width": 1254,
+    "height": 1254,
+    "length": 2536150,
+    "sha256": "38C4BAD05F505FABE804E5E9A628CC83791E51BE6DBF413212FB5203A5658AD1"
+  },
+  {
+    "cat": "luna",
+    "outfit": "sailor",
+    "width": 1254,
+    "height": 1254,
+    "length": 2462742,
+    "sha256": "D7E55CB5EEB70DEE80335470D4E11A977367D925771F298400214AD51978F221"
+  },
+  {
+    "cat": "nabi",
+    "outfit": "ribbon",
+    "width": 1254,
+    "height": 1254,
+    "length": 2458923,
+    "sha256": "76C6A06B410D674FA7385E2E06B3CFF225982F437FD948292C82FDBDA54B640D"
+  },
+  {
+    "cat": "nabi",
+    "outfit": "bandana",
+    "width": 1254,
+    "height": 1254,
+    "length": 2419041,
+    "sha256": "5931B6AB17CFF285C68DA7A131971A3E6BA63C5CA411391398AD88F6BAB61AFC"
+  },
+  {
+    "cat": "nabi",
+    "outfit": "vest",
+    "width": 1254,
+    "height": 1254,
+    "length": 2436519,
+    "sha256": "793B6694C87C8E53FFE24F45407C9497EE028003BB0161DCA796D8783E7790B9"
+  },
+  {
+    "cat": "nabi",
+    "outfit": "sailor",
+    "width": 1254,
+    "height": 1254,
+    "length": 2631250,
+    "sha256": "265EDFCEF3B8E80B42811020D562DD6201C7C545A2F06CF79CD0E252365A637A"
+  }
+]
